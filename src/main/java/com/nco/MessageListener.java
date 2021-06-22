@@ -97,6 +97,9 @@ public class MessageListener extends ListenerAdapter {
                 case UPDATEBODYHP:
                     new UpdateBodyHpCommand(messageArgs, author, channel).process();
                     break;
+                case FASHION:
+                    new FashionCommand(messageArgs, author, channel).process();
+                    break;
             }
         }
     }

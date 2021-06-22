@@ -31,5 +31,6 @@ public enum Commands {
     TRADE,
     TRAUMADEBT,
     UNKNOWN,
-    UPDATEBODYHP
+    UPDATEBODYHP,
+    FASHION
 }
